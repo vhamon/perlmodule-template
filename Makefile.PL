@@ -8,7 +8,7 @@ license 'gpl';
 repository 'https://github.com/vhamon/perlmodule-template';
 version_from 'lib/Perlmodule/Template.pm';
 perl_version '5.008';
-authors 'Teclib';
+authors 'Valentin Hamon';
 
 requires 'Getopt::Long'       => '0';
 requires 'Pod::Usage'         => '0';
@@ -146,9 +146,9 @@ sub install {
 config_install :
 	install -d -m 755 $(DESTDIR)$(SYSCONFDIR)
 	if [ -f $(DESTDIR)/$(SYSCONFDIR)/perlmodule-template.cfg ]; then \
-	    install -m 644 etc/scheduler.cfg $(DESTDIR)$(SYSCONFDIR)/perlmodule-template.cfg.new; \
+	    install -m 644 etc/perlmodule-template.cfg $(DESTDIR)$(SYSCONFDIR)/perlmodule-template.cfg.new; \
 	else \
-	    install -m 644 etc/scheduler.cfg $(DESTDIR)$(SYSCONFDIR)/perlmodule-template.cfg; \
+	    install -m 644 etc/perlmodule-template.cfg $(DESTDIR)$(SYSCONFDIR)/perlmodule-template.cfg; \
 	fi
 
 data_install :
