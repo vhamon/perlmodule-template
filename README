@@ -1,0 +1,36 @@
+# Perlmodule::Template
+
+## Summary
+
+Perlmodule Template is a basic example that uses as a base to a new basic perl module.
+
+## Installation
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+## Perl version
+
+Minimum perl version: 5.8
+
+## Dependencies
+
+This module requires these other modules and libraries:
+
+  #TODO
+
+## Author(s)
+
+* Valentin Hamon <vhamon@teclib.com>
+
+Copyright (C) 2006-2010 OCS Inventory contributors
+Copyright (C) 2010-2012 FusionInventory Team
+Copyright (C) 2011-2016 Teclib'
+
+## License
+This software is licensed under the terms of GPLv3+, see LICENSE file for
+details.
